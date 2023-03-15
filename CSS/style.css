@@ -3,23 +3,26 @@ body
     background-color: #FFFFFF;
     margin: 0;
     padding: 200px;
-    height: 100px;
-    
+    height: 100px;    
 }
 
 .container
 {
-    display: flex;
+    display: flex;    
     flex-direction: row;
-    justify-content: space-evenly;
-    column-gap: 0px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0px;      
 }
 
 .bloco-1
 {
     order: 0;
     background: hsl(31, 77%, 52%);
-    flex-grow: 1;    
+    flex-grow: 1;  
+    border-radius: 10px 0px 0px 10px;
+    display: grid;
+    gap: 10px;
 }
 
 .bloco-2
@@ -27,6 +30,8 @@ body
     order: 0;
     background: hsl(184, 100%, 22%);
     flex-grow: 1;
+    display: grid;
+    gap: 10px;
 }
 
 .bloco-3
@@ -34,4 +39,7 @@ body
     order: 0;
     background:hsl(179, 100%, 13%);
     flex-grow: 1;
+    border-radius: 0px 10px 10px 0px;
+    display: grid;
+    gap: 10px;
 }
