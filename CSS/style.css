@@ -23,7 +23,25 @@ body
     border-radius: 10px 0px 0px 10px;
     display: grid;
     gap: 10px;
+    color: #FFFFFF;
+    padding: 0px 10px;
 }
+
+.icon-1
+{
+    width: 100px;
+    height: 50px;
+}
+
+.btn-1
+{
+    background-color: #FFFFFF;
+    color: hsl(31, 77%, 52%);
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+}
+
 
 .bloco-2
 {
@@ -34,6 +52,15 @@ body
     gap: 10px;
 }
 
+.btn-2
+{
+    background-color: #FFFFFF;
+    color: hsl(184, 100%, 22%);
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+}
+
 .bloco-3
 {
     order: 0;
@@ -42,4 +69,13 @@ body
     border-radius: 0px 10px 10px 0px;
     display: grid;
     gap: 10px;
+}
+
+.btn-3
+{
+    background-color: #FFFFFF;
+    color:hsl(179, 100%, 13%);
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
 }
