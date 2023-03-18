@@ -85,3 +85,13 @@ body
     border-color: #FFFFFF;
 
 }
+
+.texto
+{
+    font-family: 'Dosis', sans-serif;
+    padding: 0 0 40px 0;
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.2em;
+}
+
